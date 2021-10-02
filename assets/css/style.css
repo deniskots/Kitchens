@@ -455,3 +455,54 @@ body {
   color: #F5D89F;
   text-align: center;
 }
+.review {
+  width: 319.67px;
+  height: 566.08px;
+  background-image: url(../../img/rew-1.svg);
+  background-size: cover;
+
+}
+.review-subtitle {
+  font-size: 11.601px;
+  line-height: 112.69%;
+  text-transform: uppercase;
+  color: #F5D89F;
+  text-align: right;
+  padding: 14px 15px;
+  border-bottom: 1px solid #F5D89F;
+}
+.review p {
+  font-weight: normal;
+  font-size: 11.6545px;
+  line-height: 132.69%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 36px 27px 44px 16px;
+}
+
+
+
+
+
+
+.review-btn {
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+  border: 1px solid #F3CD82;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.review-btn a {
+  padding: 5px 10px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 112.69%;
+  color: #F3CD82;
+  text-decoration: none;
+}
+.review-icon {
+  background-color: #F3CD82;
+  padding: 5px 10px;
+}
