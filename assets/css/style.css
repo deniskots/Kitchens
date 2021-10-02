@@ -350,7 +350,7 @@ body {
 .example-btn-group {
   display: flex;
   justify-content: center;
-  margin-bottom: 115px;
+  margin-bottom: 60px;
 }
 .example-btn-group button {
   background: #FFF0D2;
@@ -417,6 +417,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 95px 0;
+  margin: 75px 0;
 }
 .info-subtitle {
   font-weight: bold;
@@ -446,4 +447,11 @@ body {
   line-height: 130.69%;
   color: #FFFFFF;
   padding-left: 20px;
+}
+.video-link-text {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 110%;
+  color: #F5D89F;
+  text-align: center;
 }
