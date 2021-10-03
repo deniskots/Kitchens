@@ -57,6 +57,9 @@ body {
   text-decoration: none;
   padding: 0 10px;
 }
+.header-data {
+  display: flex;
+}
 .btn-kitchen {
   background-color: #F3CD82;
   padding: 5px 10px;
@@ -461,7 +464,6 @@ body {
 }
 .review {
   width: 319.67px;
-  max-height: 566.08px;
   background-image: url(../../img/rew-1.svg);
   background-size: cover;
   margin-left: 10px;
@@ -515,4 +517,144 @@ body {
   font-size: 14.9844px;
   line-height: 112.69%;
   color: #ffffff;
+}
+
+
+/* responsive */
+@media (max-width: 1200px) {
+  .header-logo, 
+  .header-main-btn, 
+  .header-social, 
+  .header-message, 
+  .header-location, 
+  .header-contacts {
+    padding: 5px;
+  }
+  .header-top {
+    justify-content: center;
+  }
+  .navigation-boxes {
+    flex-direction: column;
+  }
+  .navigation-box-parts {
+    justify-content: center;
+  }
+  .subtitle-nav {
+    text-align: center;
+  }
+  .navigation-box-part-last {
+    display: flex;
+    justify-content: center;
+  }
+  .example-boxes {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .example-box {
+    margin: 0 auto;
+  }
+  .info-link-content {
+    flex-direction: column-reverse;
+  }
+  .video-link-text {
+    padding: 20px;
+  }
+}
+@media (max-width: 1030px) {
+  .header-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .menu-list li {
+    padding-left: 20px;
+  }
+  .menu {
+    margin-right: 20px;
+  }
+  .info-link {
+    padding: 30px 0;
+  }
+  .info-subtitle {
+    font-size: 40px;
+  }
+  .reviews-flex {
+    flex-direction: column;
+  }
+  .review {
+    margin: 5px auto;
+  }
+}
+@media (max-width: 900px) {
+  .price-botton-block {
+    flex-direction: column;
+  }
+  .block-btn {
+    margin-bottom: 20px;
+  }
+  .price-button-subtitle {
+    font-size: 16px;
+    text-align: start;
+  }
+  .block-btn button {
+    padding: 25px 48px;
+  }
+  .subtitle-nav {
+    font-size: 36px;
+    text-align: center;
+  }
+  .catalog-menu {
+    justify-content: space-evenly;
+  }
+  .subtitle {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  .catalog-img {
+    justify-content: center;
+  }
+  .catalog-img img {
+    margin-right: 5px;
+  }
+  .example-btn-group button {
+    padding: 12px 66px;
+  }
+  .info-link {
+    margin: 30px 0;
+  }
+  .info-subtitle {
+    font-size: 34px;
+  }
+  .form-color {
+    font-size: 18px;
+  }
+}
+@media (max-width: 770px) {
+  .header-main {
+    margin-bottom: 50px;
+  }
+  .header-main {
+    font-size: 40px;
+  }
+  .header-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .header-title {
+    font-size: 36px;
+  }
+  .header-quality {
+    flex-direction: column;
+  }
+  .header-quality {
+    flex-direction: column;
+  }
+  .quality-form {
+    justify-content: center;
+  }
+  .video-link-text {
+    font-size: 16px;
+  }
+  
 }
