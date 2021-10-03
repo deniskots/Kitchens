@@ -455,12 +455,16 @@ body {
   color: #F5D89F;
   text-align: center;
 }
+.reviews-flex {
+  display: flex;
+  justify-content: center;
+}
 .review {
   width: 319.67px;
-  height: 566.08px;
+  max-height: 566.08px;
   background-image: url(../../img/rew-1.svg);
   background-size: cover;
-
+  margin-left: 10px;
 }
 .review-subtitle {
   font-size: 11.601px;
@@ -477,14 +481,8 @@ body {
   line-height: 132.69%;
   letter-spacing: 0.05em;
   color: #FFFFFF;
-  padding: 36px 27px 44px 16px;
+  padding: 36px 27px 35px 16px;
 }
-
-
-
-
-
-
 .review-btn {
   display: flex;
   justify-content: center;
@@ -495,7 +493,7 @@ body {
   margin: 0 auto;
 }
 .review-btn a {
-  padding: 5px 10px;
+  padding: 10px 9px;
   font-weight: normal;
   font-size: 12px;
   line-height: 112.69%;
@@ -504,5 +502,17 @@ body {
 }
 .review-icon {
   background-color: #F3CD82;
-  padding: 5px 10px;
+  padding: 7px 14px;
+}
+.review-client {
+  padding:  10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.client-name {
+  font-weight: normal;
+  font-size: 14.9844px;
+  line-height: 112.69%;
+  color: #ffffff;
 }
